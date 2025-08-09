@@ -14,9 +14,7 @@ function App() {
       <Router basename={getRouterBasename()}>
         <Navigation />
         <Routes>
-          <Route path="/" element={<HelloWorld />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/" element={<Calculator />} />
         </Routes>
       </Router>
     </Monetization>

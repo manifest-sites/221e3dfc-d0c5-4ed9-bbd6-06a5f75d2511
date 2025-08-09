@@ -30,26 +30,6 @@ function Navigation() {
                   : 'border-transparent text-gray-300 hover:text-white hover:border-gray-300'
               }`}
             >
-              Flash Cards
-            </Link>
-            <Link 
-              to="/about" 
-              className={`py-4 px-6 border-b-2 transition-colors ${
-                location.pathname === '/about' 
-                  ? 'border-white text-white' 
-                  : 'border-transparent text-gray-300 hover:text-white hover:border-gray-300'
-              }`}
-            >
-              About
-            </Link>
-            <Link 
-              to="/calculator" 
-              className={`py-4 px-6 border-b-2 transition-colors ${
-                location.pathname === '/calculator' 
-                  ? 'border-white text-white' 
-                  : 'border-transparent text-gray-300 hover:text-white hover:border-gray-300'
-              }`}
-            >
               Calculator
             </Link>
           </div>
